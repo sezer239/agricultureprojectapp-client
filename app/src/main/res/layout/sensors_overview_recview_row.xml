@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_gravity="center"
+    android:background="#00000000"
+    android:elevation="10dp"
+    android:visibility="visible"
+    app:cardElevation="3dp"
+    app:cardCornerRadius="25dp"
+    android:layout_marginLeft="15dp"
+    android:layout_marginRight="15dp"
+    android:layout_marginTop="5dp"
+    app:cardBackgroundColor="@color/colorGray"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center"
+            android:id="@+id/sensor_overview_row">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/moduleId"
+                android:text="TEST"
+                android:textStyle="bold"
+                android:textColor="#FFF"
+                android:paddingTop="15dp"
+                android:layout_gravity="center_horizontal"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/air_hum"
+                android:text="TEST"
+                android:textColor="#FFF"
+                android:paddingTop="10dp"
+                android:paddingLeft="10dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/air_temp"
+                android:text="TEST"
+                android:textColor="#FFF"
+                android:paddingTop="5dp"
+                android:paddingLeft="10dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/soil_hum"
+                android:text="TEST"
+                android:textColor="#FFF"
+                android:paddingTop="5dp"
+                android:paddingLeft="10dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/soil_temp"
+                android:text="TEST"
+                android:textColor="#FFF"
+                android:paddingTop="5dp"
+                android:paddingLeft="10dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/ph"
+                android:text="TEST"
+                android:textColor="#FFF"
+                android:paddingTop="5dp"
+                android:paddingLeft="10dp"
+                android:layout_marginBottom="10dp"/>
+
+        </LinearLayout>
+
+</android.support.v7.widget.CardView>

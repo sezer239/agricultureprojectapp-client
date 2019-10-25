@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="350dp"
+    android:layout_height="150dp"
+    android:layout_gravity="center"
+    android:background="@android:color/transparent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:id="@+id/internet_conn_popup"
+        android:layout_marginTop="15dp"
+        style="@style/AppTheme.RoundedCornerMaterialPopup">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textSize="15dp"
+            android:textColor="@color/colorLoginText"
+            android:text="Bu uygulama internet erişimi gerektirmektedir."/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorLoginText"
+            android:textSize="15dp"
+            android:text="Lütfen bağlantınızı kontrol edin."
+            android:textAlignment="center"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="16dp"
+            style="@style/AppTheme.RoundedCornerMaterialOkButton"
+            android:id="@+id/button_internet"
+            android:text="tamam"
+            android:textSize="13dp"/>
+
+
+    </LinearLayout>
+
+
+</android.support.constraint.ConstraintLayout>
